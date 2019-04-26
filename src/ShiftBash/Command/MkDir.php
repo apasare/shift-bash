@@ -9,6 +9,8 @@ use TradeShift\ShiftBash\Environment\Folder;
  */
 class MkDir extends Command
 {
+    const NAME = 'mkdir';
+
     public function execute()
     {
         if (empty($this->args[0])) {

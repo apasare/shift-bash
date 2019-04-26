@@ -7,6 +7,8 @@ namespace TradeShift\ShiftBash\Command;
  */
 class Dir extends Command
 {
+    const NAME = 'dir';
+
     protected function getCwdPath()
     {
         $pathPieces = [];

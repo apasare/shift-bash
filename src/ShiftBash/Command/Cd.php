@@ -9,6 +9,8 @@ use TradeShift\ShiftBash\Environment\Folder;
  */
 class Cd extends Command
 {
+    const NAME = 'cd';
+
     public function execute()
     {
         if (empty($this->args[0])) {

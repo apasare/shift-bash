@@ -9,6 +9,8 @@ use TradeShift\ShiftBash\Environment\Folder;
  */
 class Up extends Command
 {
+    const NAME = 'up';
+
     public function execute()
     {
         $cwd = $this->env->getCwd();
