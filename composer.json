@@ -1,0 +1,15 @@
+{
+    "name": "tradeshift/shiftbash",
+    "authors": [
+        {
+            "name": "Alexandru Pasare",
+            "email": "alexandru.pasare@simplecoding.email"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"TradeShift\\": "src/"}
+    },
+    "require": {
+        "clue/arguments": "^2.0"
+    }
+}
