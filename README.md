@@ -26,4 +26,5 @@ Runs the commands from a file
 # TODO list
 
 - improve code decoupling to respect SOLID principles
+- make Output and Input classes to encapsulate the input/output handlers, it will also make it easier to write tests
 - add unit tests
