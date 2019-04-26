@@ -8,11 +8,15 @@
 
     php shift.php [file.dat] [file.out]
 
-Terminal mode, using this mode you can run how many commands you want directly from terminal
+### Terminal mode
+
+Using this mode you can run how many commands you want directly from terminal
 
     php shift.php
 
-File mode, runs the commands from a file
+### File mode
+
+Runs the commands from a file
 
     # outputs to terminal
     php shift.php file.dat
